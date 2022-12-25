@@ -3,7 +3,9 @@
 #   user input first digit
 #   user input operation
 #   user input second digit
-#   catch type error exception
+#   add loop breaking option
+#   catch zerodivision error exception
+#   catch value error exception
 #   display answer
 #   loop
 
