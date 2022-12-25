@@ -10,7 +10,7 @@
 while True:
     try:
         first_digit = float(input("Enter first number: "))
-        operation = input("Enter operation: ")
+       operation = input("Enter operation (enter ';' to exit): ")
         second_digit = float(input("Enter second number: "))
         if operation == '+':
             answer = first_digit + second_digit
@@ -28,6 +28,8 @@ while True:
         elif operation == '%':
             answer = first_digit % second_digit
             print("Answer: " + str(answer))
+        elif operation == ';':
+            break
         else:
             print("You made an invalid input for the operation. Please try again.")
     except ZeroDivisionError:
