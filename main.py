@@ -37,4 +37,4 @@ while True:
     except ZeroDivisionError:
         print("You tried to divide by zero. It is mathematically impossible.")
     except ValueError:
-        print("You made an invalid input. Please try again.")
+        print("You made an invalid input. You must only input numerical characters for the digits. Please try again.")
